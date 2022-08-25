@@ -1,5 +1,4 @@
-# CrowdStrike
-Example of my work history while using CrowdStrike Falcon EDR
+# CrowdStrike EDR - an example of my prior work responsibilties while using CrowdStrike Falcon EDR
 
 Crowdstrike Falcon is an enterprise-grade endpoint detection and response security product that helps security and incident response engineers identify potential threats on their networks. It is especially prolific at helping its engineers hunt threats and distinguish between detected threats and benign events, more commonly known as false positives. 
 
