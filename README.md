@@ -10,7 +10,8 @@ Here is the query that I commonly used to key in on common threats and cut throu
 
 The initial results of running this query regularly yielded thousands of events.
 
-![image](https://user-images.githubusercontent.com/105020710/186570425-f5c3e2d5-aa97-4b76-b479-74e2bf3aefa7.png)
+![image](https://user-images.githubusercontent.com/105020710/186574306-631883a9-9672-42f7-ab27-03b706f33de8.png)
+
 
 Altering the query to group common commands with the count helps cut down a lot of the non-relevant results.
 
