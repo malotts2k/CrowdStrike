@@ -48,4 +48,21 @@ Let's take a further look at the command line data in the screenshot.
 
 ![image](https://user-images.githubusercontent.com/105020710/186572470-f2c7b8a1-a378-430e-a79b-a0316fdaf00e.png)
 
+Things that immediately stick out:
+
+* Single letter executable names are not common in most environments.
+* Executables are not typically stored in the documents folder.
+* The accepteula parameter is suspicious - it is common with sysinternals. This may be indicating that it's trying to use psexec.
+* escalate.exe is not a known tool or something that the infrastructure team is known to leverage.
+
+![image](https://user-images.githubusercontent.com/105020710/186573547-2aa7f5ca-78a8-4b8d-8ac8-146e83160761.png)
+
+
+As shown in the above screenshot, a.exe is shown as common both locally and globally so maybe inspecting the hash value will give us more details.
+
+![image](https://user-images.githubusercontent.com/105020710/186573707-0278ac3d-4309-44d4-9181-0a4804b87fa2.png)
+
+It appears the hash matched the sysinternals psexec and confirmed that a.exe was simply a renamed variation of this program.
+
+So what does that really tell us? This is a copy of psexec that is trying to get elevated command line access to schedule a task that likely escalates account privileges. At this point I would open a formal incident in order to additionally investigate and remediate this confirmed threat.
 
