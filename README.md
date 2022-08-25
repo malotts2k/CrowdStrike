@@ -20,7 +20,8 @@ Altering the query to group common commands with the count helps cut down a lot 
 
 This also shows how frequently each command is being run. 
 
-![image](https://user-images.githubusercontent.com/105020710/186571228-71d610dc-3dab-4a17-bd8b-d841329e5fe6.png)
+![image](https://user-images.githubusercontent.com/105020710/186574708-c35512ff-95b0-4ed1-a948-cb7fabcf6bfb.png)
+
 
 The more common commands can typically be ignored since they usually signify benign tasks. We want to zero in on the unique tasks. The less frequent the process, the more suspect it is.
 
