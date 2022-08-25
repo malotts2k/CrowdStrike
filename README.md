@@ -35,7 +35,8 @@ It's an executable called at.exe, it seems to be attempting to schedule a task e
 
 To dig further we need to dig into the event information where relevant data is revealed like the IP address of the remote system and the hash of the executable.
 
-![image](https://user-images.githubusercontent.com/105020710/186571906-e59e0148-b2ac-4e8b-b9fa-5046714445d4.png)
+![image](https://user-images.githubusercontent.com/105020710/186575097-0694718b-9448-47b7-a4e0-06346195b6f7.png)
+
 
 The beauty of CrowdStrike lies with its elegant interfaces and pivot processes that lets you seemingly go another layer deep. Here we will select the option to use the Explorer view.
 
