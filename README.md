@@ -15,7 +15,8 @@ The initial results of running this query regularly yielded thousands of events.
 
 Altering the query to group common commands with the count helps cut down a lot of the non-relevant results.
 
-![image](https://user-images.githubusercontent.com/105020710/186570930-d8f8872f-5ae6-48e5-a4df-00644e0cd2b4.png)
+![image](https://user-images.githubusercontent.com/105020710/186574492-35b5a0aa-c8c3-4364-8c22-9211e5af42b0.png)
+
 
 This also shows how frequently each command is being run. 
 
