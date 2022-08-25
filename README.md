@@ -43,7 +43,8 @@ The beauty of CrowdStrike lies with its elegant interfaces and pivot processes t
 
 The process tree shows where the command to schedule the task was called by A.EXE:
 
-![image](https://user-images.githubusercontent.com/105020710/186572299-240cf451-a0d8-4e32-b497-a4afee0526d0.png)
+![image](https://user-images.githubusercontent.com/105020710/186574898-6c15c724-b3f7-40f4-85de-6aeddcaf1d02.png)
+
 
 So what exactly sticks out about this shady event that we haven't already gleaned from looking at the event details?
 
