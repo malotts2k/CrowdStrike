@@ -70,5 +70,5 @@ As shown in the above screenshot, a.exe is shown as common both locally and glob
 
 It appears the hash matched the sysinternals psexec and confirmed that a.exe was simply a renamed variation of this program.
 
-So what does that really tell us? This is a copy of psexec that is trying to get elevated command line access to schedule a task that likely escalates account privileges. At this point I would open a formal incident in order to additionally investigate and remediate this confirmed threat.
+So what does that really tell us? This is a spoofed copy of psexec that is trying to get elevated command line access to schedule a task that likely escalates account privileges. At this point I would open a formal incident in order to additionally investigate and remediate this confirmed threat.
 
