@@ -51,7 +51,8 @@ So what exactly sticks out about this shady event that we haven't already gleane
 
 Let's take a further look at the command line data in the screenshot.
 
-![image](https://user-images.githubusercontent.com/105020710/186572470-f2c7b8a1-a378-430e-a79b-a0316fdaf00e.png)
+![image](https://user-images.githubusercontent.com/105020710/186575315-e74777c6-da06-441e-beb7-36d2c534f2b5.png)
+
 
 Things that immediately stick out:
 
